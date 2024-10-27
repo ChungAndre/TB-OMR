@@ -31,7 +31,7 @@ utils.py
 # Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/TB-OMR.git
+git clone https://github.com/ChungAndre/TB-OMR.git
 cd TB-OMR
 ```
 3. Install the required packages:
