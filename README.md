@@ -1,4 +1,4 @@
-# TB-OMR
+## TB-OMR
 
 Repository for the code developed for the Bachelor's Thesis from March to October 2024 on Optical Music Recognition (OMR).
 
@@ -28,16 +28,11 @@ utils.py
 
 ## Getting Started
 
-# Prerequisites
-Python 3.x
-TensorFlow
-OpenCV
-NumPy
-
 # Installation
 1. Clone the repository:
 git clone https://github.com/yourusername/TB-OMR.git
 cd TB-OMR
+
 2. Install the required packages:
 pip install -r requirements.txt
 
@@ -50,10 +45,15 @@ python one_step_predict.py -image path/to/image.png -model path/to/model.h5 -voc
 
 # File Descriptions
 one_step_predict.py: Script for end-to-end music symbol recognition from an image.
+
 model.py: Contains the model architecture.
+
 predict.py: Script for making predictions using the trained model.
+
 primus.py: Data processing and preparation script.
+
 training.py: Script for training the model.
+
 utils.py: Utility functions used across the project.
 
 
